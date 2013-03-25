@@ -42,7 +42,7 @@ class Api:
                 Required for authenticated requests
     """
     def __init__(self, arg1, arg2, arg3):
-        self.url = 'http://api.untappd.com/v3/'
+        self.url = 'http://api.untappd.com/v4/'
         self.apikey = arg1
         self.user = arg2
         self.password = arg3
